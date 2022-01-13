@@ -1,0 +1,6 @@
+---
+Name: filebase64config
+---
+SilverStripe\Assets\File:
+  extensions:
+    - ilateral\SilverStripe\FileBase64\FileExtension
