@@ -1,0 +1,30 @@
+{
+  "name": "i-lateral/silverstripe-file-base64",
+  "description": "Simple module to add base64 string data methods to SilverStripe files and images",
+    "type": "silverstripe-vendormodule",
+    "homepage": "http://github.com/i-lateral/silverstripe-file-base64",
+    "keywords": [
+        "silverstripe",
+        "files",
+        "images",
+        "Base64"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Morven Lewis-Everley",
+            "email": "morven@ilateral.co.uk"
+        }
+    ],
+    "support": {
+        "issues": "http://github.com/i-lateral/silverstripe-file-base64/issues"
+    },
+    "require": {
+        "silverstripe/framework": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ilateral\\SilverStripe\\FileBase64\\": "src/"
+        }
+    }
+}
