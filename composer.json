@@ -1,8 +1,8 @@
 {
-  "name": "i-lateral/silverstripe-file-base64",
+  "name": "dft/silverstripe-file-base64",
   "description": "Simple module to add base64 string data methods to SilverStripe files and images",
     "type": "silverstripe-vendormodule",
-    "homepage": "http://github.com/i-lateral/silverstripe-file-base64",
+    "homepage": "http://github.com/Dean-Forest-Tech/silverstripe-file-base64",
     "keywords": [
         "silverstripe",
         "files",
@@ -12,19 +12,19 @@
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Morven Lewis-Everley",
-            "email": "morven@ilateral.co.uk"
+            "name": "Dean Forest Tech",
+            "homepage": "https://dean-forest-tech.uk"
         }
     ],
     "support": {
-        "issues": "http://github.com/i-lateral/silverstripe-file-base64/issues"
+        "issues": "http://github.com/Dean-Forest-Tech/silverstripe-file-base64/issues"
     },
     "require": {
-        "silverstripe/framework": "~4.0"
+        "silverstripe/framework": "^4|^5"
     },
     "autoload": {
         "psr-4": {
-            "ilateral\\SilverStripe\\FileBase64\\": "src/"
+            "DFT\\SilverStripe\\FileBase64\\": "src/"
         }
     },
     "minimum-stability": "dev",

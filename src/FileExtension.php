@@ -1,6 +1,6 @@
 <?php
 
-namespace ilateral\SilverStripe\FileBase64;
+namespace DFT\SilverStripe\FileBase64;
 
 use SilverStripe\Assets\File;
 use SilverStripe\ORM\DataExtension;
