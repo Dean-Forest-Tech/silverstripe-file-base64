@@ -8,7 +8,7 @@ tags, etc.
 
 Install via composer:
 
-    composer require i-lateral/silverstripe-file-base64
+    composer require dft/silverstripe-file-base64
 
 ## Usage
 
