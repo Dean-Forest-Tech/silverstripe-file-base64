@@ -17,8 +17,13 @@ class FileExtension extends DataExtension
     {
         /** @var File */
         $file = $this->getOwner();
-        $string = base64_encode($file->getString());        
-        return $string;
+        $string = $file->getString();
+
+        if (!empty($string)) {
+            $string = base64_encode($string);
+        }
+
+        return (string)$string;
     }
 
     /**
